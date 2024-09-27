@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Esoma
+Z0 w1727459761
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z3 dC:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Soma
+Z4 8C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Soma/soma.vhd
+Z5 FC:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Soma/soma.vhd
+l0
+L4 1
+VS]PDEH9kb4B52374L]dOR3
+!s100 dB[NFF:0m;3:L74>3U5<13
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1727459768
+!i10b 1
+Z8 !s108 1727459768.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Soma/soma.vhd|
+Z10 !s107 C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Soma/soma.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Ackt
+R1
+R2
+DEx4 work 4 soma 0 22 S]PDEH9kb4B52374L]dOR3
+!i122 3
+l13
+L12 5
+VW@VaF?a?c52Zoj[Bz@GDl0
+!s100 QKa=0aRY[64BF<R93lBfC2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

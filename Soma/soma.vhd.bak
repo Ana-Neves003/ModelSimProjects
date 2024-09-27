@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity soma is
+    Port ( A   : in  STD_LOGIC;
+           B   : in  STD_LOGIC;
+           Cin : in STD_LOGIC;
+	   S   : out  STD_LOGIC;
+           Cout: out  STD_LOGIC);
+end soma;
+
+architecture ckt of soma is
+begin
+    S <= A XOR B; -- Soma
+    C <= A AND B; -- Carry
+end ckt;
+
