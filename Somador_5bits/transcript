@@ -1,0 +1,21 @@
+# Compile of somador_5bits.vhd was successful.
+vsim work.soma_5bits
+# vsim work.soma_5bits 
+# Start time: 16:02:43 on Sep 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.soma_5bits(ckt)
+add wave -position insertpoint sim:/soma_5bits/*
+force -freeze sim:/soma_5bits/A 00001 0
+force -freeze sim:/soma_5bits/B 10000 0
+run
+force -freeze sim:/soma_5bits/Carry 00000 0
+run
+run
+force -freeze sim:/soma_5bits/A 10000 0
+run
+run
+stop
+# End time: 16:05:44 on Sep 27,2024, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 5
