@@ -1,0 +1,132 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Subtracao_5bits
+Eshift_register_16bits
+Z0 w1732733805
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+Z3 dC:/Users/Dell/Codigos/GITHUB/ModelSimProjects
+Z4 8C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Shift_Register_16bits.vhd
+Z5 FC:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Shift_Register_16bits.vhd
+l0
+L4 1
+VQF>Xdg;3Uk6VY_ZmU;nUB2
+!s100 dXRFMGCllCEZJC4PYBe091
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1732734479
+!i10b 1
+Z8 !s108 1732734479.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Shift_Register_16bits.vhd|
+Z10 !s107 C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/Shift_Register_16bits.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Ackt
+R1
+R2
+DEx4 work 21 shift_register_16bits 0 22 QF>Xdg;3Uk6VY_ZmU;nUB2
+!i122 5
+l15
+L13 15
+VALL1LhP^`gOSmCaV_fEHn2
+!s100 oS?mg_z=R9Mm:UPoOo?`O3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esoma_16bits
+Z13 w1732733349
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/soma_16bits.vhd
+Z15 FC:/Users/Dell/Codigos/GITHUB/ModelSimProjects/soma_16bits.vhd
+l0
+L4 1
+V0Czilol2oo6A55:Xe7oJk3
+!s100 loj5bLM1Ia]RiP73ZTLK00
+R6
+32
+Z16 !s110 1732733354
+!i10b 1
+Z17 !s108 1732733354.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/soma_16bits.vhd|
+Z19 !s107 C:/Users/Dell/Codigos/GITHUB/ModelSimProjects/soma_16bits.vhd|
+!i113 1
+R11
+R12
+Ackt
+R1
+R2
+DEx4 work 11 soma_16bits 0 22 0Czilol2oo6A55:Xe7oJk3
+!i122 1
+l15
+L13 68
+VARA1J29AYSk`2WX>3DBK02
+!s100 VbTgQmnhgV7W@@dK=1_b23
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etb_shift_register_16bits
+Z20 w1732734391
+R1
+R2
+!i122 7
+R3
+Z21 8tb_shift_register_16bits.vhd
+Z22 Ftb_shift_register_16bits.vhd
+l0
+L4 1
+V8JU8WziCi==<?b9EigF;V0
+!s100 eK9A6hj^<>TfePD00[oID3
+R6
+32
+Z23 !s110 1732734634
+!i10b 1
+Z24 !s108 1732734634.000000
+Z25 !s90 -reportprogress|300|tb_shift_register_16bits.vhd|
+!s107 tb_shift_register_16bits.vhd|
+!i113 1
+R12
+Asim
+R1
+R2
+DEx4 work 24 tb_shift_register_16bits 0 22 8JU8WziCi==<?b9EigF;V0
+!i122 7
+l26
+Z26 L7 62
+VUSMM=TlUb;aZ]2^h:5HEG3
+Z27 !s100 2`zj[[DaEUR4?fc<F=O=d0
+R6
+32
+R23
+!i10b 1
+R24
+R25
+Z28 !s107 tb_shift_register_16bits.vhd|
+!i113 1
+R12
