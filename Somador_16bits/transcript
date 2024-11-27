@@ -1,1 +1,43 @@
-# Compile of Shift_Register_16bits.vhd was successful.
+# Compile of soma_16bits.vhd was successful.
+do sim.do.txt
+# vsim soma_16bits 
+# Start time: 19:52:49 on Nov 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.soma_16bits(ckt)
+quit -sim
+# End time: 19:55:47 on Nov 27,2024, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 5
+# Compile of soma_16bits.vhd was successful.
+do sim.do.txt
+# vsim soma_16bits 
+# Start time: 19:56:03 on Nov 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.soma_16bits(ckt)
+quit -sim
+# End time: 19:58:17 on Nov 27,2024, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 2
+do sim.do.txt
+# vsim soma_16bits 
+# Start time: 19:58:29 on Nov 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.soma_16bits(ckt)
+quit -sim
+# End time: 19:59:12 on Nov 27,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 1
+do sim.do.txt
+# vsim soma_16bits 
+# Start time: 20:00:27 on Nov 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.soma_16bits(ckt)
+
+quit -sim
+# End time: 20:01:13 on Nov 27,2024, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1

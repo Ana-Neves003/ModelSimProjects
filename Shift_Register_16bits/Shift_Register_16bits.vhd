@@ -1,28 +1,37 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity shift_register_16bits is
+entity shift_register is
     Port (
-        clk : in  STD_LOGIC; -- Sinal de clock que controla a operação de deslocamento                     
-        reset : in  STD_LOGIC;  -- Sinal de reset que, quando ativado, limpa o registrador                  
-        data_in : in  STD_LOGIC_VECTOR(15 downto 0); -- Dados de entrada de 16 bits
-        data_out : out  STD_LOGIC_VECTOR(15 downto 0) -- Dados de saída, estado atual do registrador  
+        clk       : in  STD_LOGIC;                       -- Sinal de clock
+        reset     : in  STD_LOGIC;                       -- Sinal de reset
+        shift_en  : in  STD_LOGIC;                       -- Habilitação do deslocamento
+        data_in   : in  STD_LOGIC_VECTOR(15 downto 0);   -- Entrada de dados
+        data_out  : out STD_LOGIC_VECTOR(15 downto 0)    -- Saída do registrador
     );
-end shift_register_16bits;
+end shift_register;
 
-architecture ckt of shift_register_16bits is
-    signal reg : STD_LOGIC_VECTOR(15 downto 0); -- Registrador de 16 bits onde os dados são deslocados a cada ciclo de clock.
+architecture Behavioral of shift_register is
+    signal shift_reg : STD_LOGIC_VECTOR(15 downto 0) := (others => '0'); -- Registrador interno
 begin
-    -- O vetor reg(15 downto 1) é atualizado com os valores de reg(14 downto 0)
-    -- Isso move cada bit uma posição à direita, e o bit mais significativo (MSB) é deslocado para o próximo bit menos significativo.
-    reg(15 downto 1) <= reg(14 downto 0);  -- Desloca os dados para a direita
-    reg(0) <= data_in(15);                  -- Insere o bit mais significativo de data_in no MSB do registrador
-    
-    -- Atribuição de saída
-    -- O bit mais significativo de data_in é inserido no bit 0 de reg
-    data_out <= reg;
 
-    -- Reset ativo alto
-    reg <= (others => '0') when reset = '1' else reg;  -- Quando reset estiver ativo, limpa o registrador
-end ckt;
+    -- Process para controlar o registrador de deslocamento
+    process(clk, reset)
+    begin
+        if reset = '1' then
+            -- Reset assíncrono: limpa o registrador
+            shift_reg <= (others => '0');
+        elsif rising_edge(clk) then
+            if shift_en = '1' then
+                -- Desloca os bits para a esquerda e insere o bit mais significativo da entrada
+                --shift_reg <= shift_reg(14 downto 0) & data_in(15);
+		  shift_reg <= shift_reg;
+            end if;
+        end if;
+    end process;
+
+    -- Atualiza a saída com o conteúdo do registrador
+    data_out <= shift_reg;
+
+end Behavioral;
 
